@@ -36,7 +36,7 @@ useEffect(()=>{
 
   return (
     <>
-    <div className="sticky top-[0] z-40 bg-gradient-to-r from-[#ad0101] to-[#ff0000] via-[#dd0505]  flex justify-between items-center w-[100vw] h-[20vh]">
+    <div className="sticky top-[0] sm:p-[10px] z-40 bg-gradient-to-r from-[#ad0101] to-[#ff0000] via-[#dd0505]  flex justify-between items-center w-[100vw] h-[20vh]">
      <div className="square text-white flex-[1] flex justify-center items-center">getEating</div>
      <div className="flex flex-[1] justify-between items-center border border-[1.5] p-8 rounded-2xl md:hidden">
         <Link to={`/`} className="relative group flex justify-center items-center " >
